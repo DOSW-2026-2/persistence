@@ -674,7 +674,7 @@ mvn test
 
 Deben crear un **segundo repositorio**, independiente del proyecto principal.
 
-El objetivo de este microservicio será la **gestión de todas las imágenes del proyecto**. Inicialmente modifíquelo para que funcione para las imágenes del torneo, pero tenga presente que este servicio le funcionará para imágenes de los jugadores, entre otras cosas.
+El objetivo de este microservicio será la **gestión de todas las imágenes del proyecto**. Inicialmente modifíquelo para que funcione para las imágenes del servicio, pero tenga presente que este servicio le funcionará para imágenes de los trabajadores, entre otras cosas.
 
 **Nombre sugerido:** `image-service`
 
