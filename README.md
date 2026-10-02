@@ -352,8 +352,8 @@ Pueden hacerlo por Docker.
 ```bash
 docker pull postgres
 
-docker run --name postgres-lab8 \
-  -e POSTGRES_DB=lab8db \
+docker run --name postgres-lab7 \
+  -e POSTGRES_DB=lab7db \
   -e POSTGRES_USER=postgres \
   -e POSTGRES_PASSWORD=postgres \
   -p 5432:5432 \
@@ -371,7 +371,7 @@ Crear o modificar el archivo `src/main/resources/application.properties`.
 **Configuración ejemplo**
 
 ```properties
-spring.datasource.url=jdbc:postgresql://localhost:5432/lab8db
+spring.datasource.url=jdbc:postgresql://localhost:5432/lab7db
 spring.datasource.username=postgres
 spring.datasource.password=postgres
 spring.datasource.driver-class-name=org.postgresql.Driver
@@ -740,7 +740,7 @@ server.port=8081
 **Opción Docker para MongoDB**
 
 ```bash
-docker run --name mongo-lab8 -p 27017:27017 -d mongo
+docker run --name mongo-lab7 -p 27017:27017 -d mongo
 ```
 
 ---
