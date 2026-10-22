@@ -3,7 +3,7 @@
 
 **Escuela Colombiana de Ingeniería Julio Garavito**  
 **Curso:** Desarrollo y Operaciones de Software - DOSW  
-**Caso de estudio:** **TechCup**
+**Caso de estudio:** **OficioYa**
 
 En este laboratorio, cada equipo (SQUAD) deberá extender su proyecto construido en Java con Spring Boot y Maven para incorporar persistencia de datos en dos frentes:
 
